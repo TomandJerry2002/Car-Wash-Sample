@@ -1,0 +1,44 @@
+html{scroll-behavior:smooth}
+body{margin:0;background:#F4F9FE;color:#0A2A5E;font-family:'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#1E73D2;text-decoration:none}
+a:hover{color:#0A2A5E}
+*{box-sizing:border-box}
+@keyframes bl-rise{0%{transform:translateY(0) scale(.6);opacity:0}12%{opacity:.85}100%{transform:translateY(-110vh) scale(1.1);opacity:0}}
+@keyframes bl-sway{0%,100%{margin-left:0}50%{margin-left:22px}}
+@keyframes bl-pulse{0%{box-shadow:0 0 0 0 rgba(91,184,240,.7)}70%{box-shadow:0 0 0 12px rgba(91,184,240,0)}100%{box-shadow:0 0 0 0 rgba(91,184,240,0)}}
+@keyframes bl-bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-10px) rotate(3deg)}}
+@keyframes bl-scroll{0%{transform:translateY(0);opacity:1}80%{transform:translateY(14px);opacity:0}100%{opacity:0}}
+@media (max-width:860px){#nav-links{display:none!important}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+.h1:hover{background:#0A2A5E!important;color:#fff!important}
+.h2:hover{transform:translateY(-2px)!important;color:#0A2A5E!important}
+.h3:hover{color:#5BB8F0!important}
+.h4:hover{background:#061B3F!important;color:#fff!important}
+.h5:hover{transform:translateY(-6px)!important;box-shadow:0 24px 50px -28px #0A2A5E!important}
+.h6:hover{transform:translateY(-6px)!important;box-shadow:0 24px 50px -28px #0A2A5E!important}
+.h7:hover{transform:translateY(-6px)!important;box-shadow:0 24px 50px -28px #0A2A5E!important}
+.h8:hover{transform:translateY(-6px)!important;box-shadow:0 24px 50px -28px #0A2A5E!important}
+.h9:hover{transform:translateY(-6px)!important;box-shadow:0 24px 50px -28px #0A2A5E!important}
+.h10:hover{transform:translateY(-6px)!important;box-shadow:0 24px 50px -28px #0A2A5E!important}
+.h11:hover{color:#fff!important}
+.h12:hover{color:#1E73D2!important}
+.h13:hover{background:#fff!important;color:#061B3F!important}
+.h14:hover{transform:scale(1.07)!important}
+.h15:hover{transform:scale(1.07)!important}
+.h16:hover{transform:scale(1.07)!important}
+.h17:hover{transform:scale(1.07)!important}
+.h18:hover{color:#fff!important}
+.h19:hover{color:#1E73D2!important}
+.h20:hover{color:#1E73D2!important}
+.h21:hover{color:#1E73D2!important}
+.h22:hover{background:#1E73D2!important;color:#fff!important}
+.h23:hover{color:#1E73D2!important}
+.h24:hover{background:#DCE8F5!important}
+.h25:hover{background:#0A2A5E!important;color:#fff!important}
+.h26:hover{color:#1E73D2!important}
+.h27:hover{background:rgba(255,255,255,.2)!important}
+.h28:hover{background:#1E73D2!important}
+.h29:hover{background:#1E73D2!important}
+.h30:hover{color:#5BB8F0!important}
+.h31:hover{color:#5BB8F0!important}
+.h32:hover{color:#5BB8F0!important}
